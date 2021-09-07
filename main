@@ -5,7 +5,7 @@ class Stack:
     def __init__(self):
         self.__elements = []
 
-    # Return true if the tack is empty
+    # Return true if the stack is empty
     def isEmpty(self):
         return len(self.__elements) == 0
 
